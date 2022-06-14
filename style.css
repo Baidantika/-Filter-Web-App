@@ -1,0 +1,29 @@
+#head{
+    font-size: 40px;
+    color: blue;
+    border-radius: 40px;
+}
+.btn-info:hover{
+   background-color: rgb(200, 255, 0);
+  
+}
+.btn-success:hover{
+ background-color: red;
+ font-size: 30px;
+}
+#snap{
+    font-size: 25px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgb(232, 6, 6);
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+@keyframes example{
+    from{box-shadow:5px 5px 38px red;}
+    to{box-shadow:5px 5px 38px rgb(94, 8, 255);}
+}
+
